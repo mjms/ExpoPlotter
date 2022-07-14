@@ -1,0 +1,11 @@
+import RPi.GPIO as GPIO
+import time
+import numpy as np
+
+GPIO.setmode(GPIO.BCM)
+
+ControlPin = [ [5,6,13,19],
+               [26,16,20,21]]
+
+for pin in ControlPin:
+    print(pin)
